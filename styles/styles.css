@@ -1,0 +1,209 @@
+/* .tile{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+    margin: 3px;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    width: 500px;
+    height: 300px;
+    align-content: center;
+    justify-content: center;
+
+}
+.tile.clicked{
+    background-color: white;
+
+}
+
+.tile.clicked img{
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.tile.clicked.found{
+    background-color: lightgreen;
+}
+ */
+
+
+/* .counter{
+    text-emphasis: bold;
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+    width: 500px;
+
+}
+
+.restartButton{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 500px;
+    visibility: hidden;
+}
+
+.restartButton.visible{
+    visibility: visible;
+} */
+
+h1{
+    text-align: center;
+    height: 50px;
+    width: 500px;
+
+}
+
+
+/* .selectionTiles{
+    
+} */
+
+body{
+    background-color:  lightcyan;
+    height: 500px;
+    width: 500px;
+}
+.selectionTiles{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    /* width: 500px;
+    height: 500px; */
+    align-content: center;
+    justify-content: center;
+}
+
+/* .modal{
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    border-radius: 6px;
+    width: 90px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+} */
+
+.header
+{
+    /* width: 500px;
+    height: 200px; */
+    display: block;
+    align-content: center;
+    align-items: center;
+}
+.button-modal,
+.button{
+    display: flex;    
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    margin: 5px;
+    width: 90px;
+    height: 40px;
+    
+}
+
+.button-modal:focus,
+.button-modal:hover,
+.button:focus,
+.button:hover,
+.button-modal.clicked{
+    background-color: white;
+    border-color: light black;
+    color: black;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: azure;
+    background-color: transparent;
+}
+
+.modal-content{
+    background-color: aqua;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+}
+
+.close{
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-iframe{
+    
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    overflow-y: hidden;
+}
+.ingredients.on,
+.instructions.on,
+.pictures.on{
+    font-size: 20px;
+    visibility: visible;
+    height: auto;
+
+}
+.ingredients.off,
+.instructions.off,
+.pictures.off{
+    font-size: 20px;
+    visibility: hidden;
+    height: 0px;
+
+}
+p{
+    font-weight: bold;
+}
+ul{
+    list-style: square outside;
+    display: list-item;
+}
+
+ol{
+    list-style: lower-greek;
+}
