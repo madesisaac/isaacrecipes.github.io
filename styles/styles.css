@@ -129,9 +129,9 @@ body{
     
 }
 
-.button-modal:focus,
+/*.button-modal:focus,*/
 .button-modal:hover,
-.button:focus,
+/*.button:focus,*/
 .button:hover,
 .button-modal.clicked{
     background-color: white;
@@ -180,6 +180,15 @@ body{
     width: 80%;
     overflow-y: hidden;
 }
+
+
+.pictures{
+    display: grid;
+    align-content: center;
+    align-items: center;
+
+}
+
 .ingredients.on,
 .instructions.on,
 .pictures.on{
@@ -207,3 +216,8 @@ ul{
 ol{
     list-style: lower-greek;
 }
+
+img{
+    margin: 5px;
+}
+
